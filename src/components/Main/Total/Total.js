@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Total = (props) => {
-
    const balance = props.content.map(el => Number(el.count))
 
    const expense = props.content

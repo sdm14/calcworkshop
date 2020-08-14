@@ -1,5 +1,6 @@
 import { connect } from "react-redux";
 import History from "./History";
+import { deleteContentCreator } from '../../../reducer/mainReducer'
 
 const mapStateToProps = (state) => {
    return {
@@ -7,4 +8,12 @@ const mapStateToProps = (state) => {
    }
 }
 
-export const HistoryContainer = connect(mapStateToProps, null)(History)
+const mapDispatchToProps = (dispatch) => {
+   return {
+      deleteContent: (id) => {
+         return dispatch(deleteContentCreator(id))
+      }
+   }
+}
+
+export const HistoryContainer = connect(mapStateToProps, mapDispatchToProps)(History)

@@ -2,6 +2,7 @@ const UPDATE_TITLE = 'UPDATE_TITLE'
 const UPDATE_COUNT = 'UPDATE_COUNT'
 const ADD_INCOME = 'ADD_INCOME'
 const ADD_EXPENSE = 'ADD_EXPENSE'
+const DELETE_CONTENT = 'DELETE_CONTENT'
 
 const initialState = {
    content: [],
@@ -35,6 +36,12 @@ export const mainReducer = (state = initialState, action) => {
             ...state,
             updateCount: action.count
          }
+      case DELETE_CONTENT:
+         return {
+            ...state,
+            content: state.content.filter(el => el.id !== action.id)
+         }
+         debugger
       default:
          return state
    }
@@ -55,3 +62,9 @@ export const addIncomeCreator = () => {
 export const addExpenseCreator = () => {
    return { type: ADD_EXPENSE }
 }
+
+export const deleteContentCreator = (id) => {
+   return { type: DELETE_CONTENT, id }
+}
+
+
