@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/calcworkshop/static/css/main.94d4465d.chunk.css",
+    "main.js": "/calcworkshop/static/js/main.45cd5025.chunk.js",
+    "main.js.map": "/calcworkshop/static/js/main.45cd5025.chunk.js.map",
+    "runtime-main.js": "/calcworkshop/static/js/runtime-main.41dd25b5.js",
+    "runtime-main.js.map": "/calcworkshop/static/js/runtime-main.41dd25b5.js.map",
+    "static/js/2.daf2ec05.chunk.js": "/calcworkshop/static/js/2.daf2ec05.chunk.js",
+    "static/js/2.daf2ec05.chunk.js.map": "/calcworkshop/static/js/2.daf2ec05.chunk.js.map",
+    "index.html": "/calcworkshop/index.html",
+    "precache-manifest.2de225fd415ae1b31f3d34efa1202370.js": "/calcworkshop/precache-manifest.2de225fd415ae1b31f3d34efa1202370.js",
+    "service-worker.js": "/calcworkshop/service-worker.js",
+    "static/css/main.94d4465d.chunk.css.map": "/calcworkshop/static/css/main.94d4465d.chunk.css.map",
+    "static/js/2.daf2ec05.chunk.js.LICENSE.txt": "/calcworkshop/static/js/2.daf2ec05.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41dd25b5.js",
+    "static/js/2.daf2ec05.chunk.js",
+    "static/css/main.94d4465d.chunk.css",
+    "static/js/main.45cd5025.chunk.js"
+  ]
+}
